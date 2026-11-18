@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>README · AI 콘텐츠 크리에이터 페이지</title>
+<style>
+  :root{--mint:#2EC4B6;--mint-soft:#E6F8F5;--teal:#0F766E;--coral:#D93A3F;--ink:#17212B;--sub:#46525F;--line:#DDE5EC}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
+       color:var(--ink);background:#fff;line-height:1.7;-webkit-font-smoothing:antialiased}
+  header{background:linear-gradient(180deg,var(--mint-soft),#fff);padding:44px 0 24px}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+  .badge{display:inline-block;background:var(--ink);color:#fff;font-size:13px;font-weight:700;padding:6px 14px;border-radius:999px}
+  h1{font-size:clamp(26px,6vw,36px);font-weight:800;margin:14px 0 8px;letter-spacing:-.02em}
+  header p{color:var(--sub);font-size:16px}
+  section{padding:22px 0}
+  h2{font-size:20px;font-weight:800;margin-bottom:12px}
+  h2::before{content:"";display:inline-block;width:6px;height:18px;background:var(--coral);border-radius:3px;margin-right:10px;vertical-align:-3px}
+  p,li{font-size:16px}
+  ol,ul{padding-left:22px}
+  li{margin-bottom:6px}
+  code{background:var(--mint-soft);color:var(--teal);padding:2px 7px;border-radius:6px;font-size:14px}
+  pre{background:var(--ink);color:#fff;border-radius:12px;padding:14px 16px;overflow-x:auto;font-size:14px;margin:10px 0}
+  table{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:15px}
+  th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:var(--mint-soft);color:var(--teal)}
+  tr:last-child td{border-bottom:none}
+  .swatch{display:inline-block;width:14px;height:14px;border-radius:4px;vertical-align:-2px;margin-right:6px}
+  .check{color:var(--coral);font-weight:700}
+  footer{padding:8px 0 40px;font-size:12px;color:var(--sub);text-align:center}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <span class="badge">README</span>
+    <h1>AI 콘텐츠 크리에이터 페이지</h1>
+    <p>40대를 위한 AI 쇼츠 채널의 소개 페이지와, 기사 프로젝트용 노트 페이지를 담은 저장소입니다. 빌드 없이 HTML 파일을 브라우저로 열면 바로 보입니다.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2>파일 구성</h2>
+    <table>
+      <tr><th>파일</th><th>설명</th></tr>
+      <tr><td><code>creator-intro.html</code></td><td>AI 콘텐츠 크리에이터 한 장짜리 소개 페이지</td></tr>
+      <tr><td><code>project-note.html</code></td><td>기사 프로젝트 노트 (브리프, 팀, 주제, 할 일 5개, 날짜별 기록)</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>사용 방법</h2>
+    <ol>
+      <li>저장소를 내려받습니다.
+        <pre>git clone &lt;저장소 주소&gt;</pre>
+      </li>
+      <li>원하는 <code>.html</code> 파일을 더블클릭하거나 브라우저로 끌어다 놓습니다.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>수정할 곳</h2>
+    <ul>
+      <li><code>creator-intro.html</code>: 구독 버튼의 <code>href="#"</code>를 채널 주소로 바꿔 주세요. 채널 주소는 <span class="check">확인 필요</span>입니다.</li>
+      <li><code>project-note.html</code>: 칸에 직접 적으면 해당 기기의 브라우저에 자동 저장됩니다. 다른 기기로는 옮겨지지 않습니다.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>디자인</h2>
+    <ul>
+      <li><span class="swatch" style="background:#2EC4B6"></span>민트 <code>#2EC4B6</code> · <span class="swatch" style="background:#D93A3F"></span>코랄 <code>#D93A3F</code> 포인트, 흰 바탕</li>
+      <li>휴대폰 화면에서도 보기 좋게 맞췄습니다.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>개인정보</h2>
+    <p>전화번호, 주소 같은 개인정보는 넣지 않는 것을 전제로 만들었습니다. 저장소에 올리기 전에 한 번 더 확인해 주세요.</p>
+  </section>
+
+  <section>
+    <h2>라이선스</h2>
+    <p><span class="check">확인 필요</span></p>
+  </section>
+
+</main>
+
+<footer>README.html</footer>
+
+</body>
+</html>
